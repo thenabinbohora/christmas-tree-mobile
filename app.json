@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "ChristmasTreeMobile",
+    "slug": "christmas-tree-mobile",
+    "scheme": "christmas",
+    "web": { "bundler": "metro" }
+  }
+}
