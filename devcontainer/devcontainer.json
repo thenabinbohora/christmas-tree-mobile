@@ -1,0 +1,14 @@
+{
+  "name": "mobile-expo",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": { "extensions": ["msjsdiag.vscode-react-native"] }
+  },
+  "forwardPorts": [19000, 19006, 3002],
+  "portsAttributes": {
+    "19000": {"label": "Expo"},
+    "19006": {"label": "Expo web"},
+    "3002": {"label": "Optional Web Port"}
+  },
+  "postCreateCommand": "npm ci || true"
+}
